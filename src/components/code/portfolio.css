@@ -1,57 +1,6 @@
-body {
-  font-family: Geneva, Tahoma, sans-serif;
-  background-color: black;
-  padding: 200px 0 200px 0;
-  max-width: 1200px;
-  margin: auto;
-}
-.main {
-  background-color: rgb(12, 16, 16);
-  padding: 40px;
-}
-.logo {
-  margin: 0;
-}
-.header{
-  color: white;
-  display: flex;
-}
-.green {
-  color:rgb(20, 224, 173)
-}
-.menu {
-  align-content:space-between;
-  color: white;
-  display: grid;
-  grid-template-columns: repeat(7,90px);
-  list-style: none;
-  margin: 10px 0 0 100px;
-}
-.menu-item {
-  border-radius: 16px;
-  padding: 5px 0;
-  text-align: center;
-}
-.menu-item:hover {
-  cursor: pointer;
-  /* background-color: rgb(67, 217, 179); */
-  color: rgb(67, 217, 179);
-}
-.button:hover {
-  background-color: rgb(110, 238, 206);
-  color: rgb(0, 0, 0);
-}
-.menu-item:active {
-  /* background-color: rgb(81, 89, 87); */
-  color: rgb(89, 86, 86);
-}
 
-.button {
-  background-color: rgb(67, 217, 179);
-  border-radius: 16px;
-  color: rgb(21, 20, 20);
-  padding: 5px 0;
-}
+
+
 .links {
   color: rgb(67, 217, 179);
   display: grid;
@@ -86,11 +35,12 @@ body {
   width: 340px;
 }
 .job-title {
-  margin: 0;
+  margin: 0 0 5px 0;
 }
 .details .hello,
 .details .hello-name {
   font-size: 3em;
+  font-family: Arial, sans-serif;
   margin: -10px 0;
   padding: 0;
 }
