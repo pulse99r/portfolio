@@ -1,6 +1,12 @@
 .logo {
   color: rgb(152, 148, 148);
   margin: 0;
+  transition: color 4s;
+  width: 450px;
+}
+.logo:hover{
+  cursor: pointer;
+  color: rgb(20, 224, 173);
 }
 .header{
   color: white;
@@ -9,37 +15,47 @@
 .green {
   color:rgb(20, 224, 173)
 }
-.menu {
+.nav {
   align-content:space-between;
-  color: white;
   display: grid;
   grid-template-columns: repeat(7,80px);
   grid-gap: 5px;
   list-style: none;
-  margin: 10px 0 0 150px;
+  margin: 10px 0 10px 150px;
 }
-.menu-item {
+.nav-item {
   border-radius: 16px;
-  padding: 5px 0;
+  color: white;
+  padding: 3px 0;
   text-align: center;
+  text-decoration-color: none;
+  /* transition: text-decoration 4s; */
+  transition: text-decoration-color 2.15s ease-in-out;
 }
-.menu-item:hover {
+.nav-item:hover {
   cursor: pointer;
-  /* background-color: rgb(67, 217, 179); */
+  text-decoration: underline solid 3px;
+  text-decoration-color: rgb(110, 238, 206);
+  text-underline-offset: 4px;
   color: rgb(67, 217, 179);
 }
-.button:hover {
-  background-color: rgb(110, 238, 206);
-  color: rgb(0, 0, 0);
-}
-.menu-item:active {
+.nav-item:active {
   /* background-color: rgb(81, 89, 87); */
   color: rgb(89, 86, 86);
 }
-
 .button {
   background-color: rgb(67, 217, 179);
   border-radius: 16px;
-  color: rgb(21, 20, 20);
-  padding: 5px 0;
+  color: rgb(71, 67, 67);
+  padding: 6px 4px 3px 4px;
+  text-align: center;
+  transition: color 3s, background-color 1s, font-size  4s, padding 2s;
+}
+.button:hover {
+  background-color: rgb(128, 233, 207);
+  color: black;
+  cursor: pointer;
+  font-size: 1.1em;
+  font-weight: 600;
+  padding: 4px 4px 1px 4px;
 }

@@ -1,0 +1,35 @@
+
+.resume {
+  color: white;
+  list-style: none;
+}
+.resume-item {
+  text-align: center;
+  align-content: center;
+  background-color: rgb(5, 3, 3);
+  border-radius: 8px;
+  height: 50px;
+  margin: 8px 8px;
+  width: 200px;
+  padding: 0;
+}
+.resume-item:hover {
+  background-color: rgb(43, 39, 39);
+  border: 1px solid rgb(110, 238, 206);
+  cursor: pointer;
+  color: rgb(110, 238, 206);
+}
+/* .resume-item:focus{
+  border: 1px solid rgb(110, 238, 206);
+} */
+.resume-item:focus{
+  border: 1px solid rgb(110, 238, 206);
+}
+.resume-item .dl-01 {
+  display: grid;
+  grid-template-columns: [left] 250px [right] 250px;
+}
+dd{
+  visibility:hidden;
+  display: none;
+}

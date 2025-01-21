@@ -1,0 +1,19 @@
+
+.services {
+  color: white;
+  list-style: none;
+}
+.service-item {
+  text-align: center;
+  align-content: center;
+  border: 1px solid rgb(110, 238, 206);
+  border-radius: 8px;
+  height: 150px;
+  margin: 20px 8px;
+  width: 150px;
+}
+.service-item:hover {
+  cursor: pointer;
+  color: rgb(110, 238, 206);
+  text-decoration: underline solid rgb(110, 238, 206) 3px;
+}
