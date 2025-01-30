@@ -1,24 +1,18 @@
-import './resume.css'
+import '../css/resume.css'
 import Objective from '../pages/objective'
+import WorkExperience from './work-experience'
+import Skills from './Skills';
+import Education from './Education'
+
+
 
 const Resume = () => {
   return (
     <div className='resume'>
-      <li className="resume-item">
-        <span>Objective</span>
-      </li>
-      <li className="resume-item">
-        <span>Work Experience</span>
-      </li>
-      <li className="resume-item">
-        <span className='skills-title'>Skills</span>
-      </li>
-      <li className="resume-item">
-        <span className='skills-title'>Education</span>
-      </li>
-      <li className="resume-item">
-        <span className='skills-title'>Hobbies / Avocations</span>
-      </li>
+      <Objective />
+      <WorkExperience />
+      <Skills />
+      <Education />
     </div>
   );
 }

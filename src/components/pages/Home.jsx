@@ -1,5 +1,5 @@
 import Nav from '../Nav'
-import '../pages/home.css';
+import '../css/home.css';
 import kenti from '../img/kenti.jpg';
 import gh from '../img/github-svgrepo-com.svg'
 import linkedin from '../img/linkedin-svgrepo-com.svg'
