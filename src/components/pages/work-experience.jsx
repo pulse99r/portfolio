@@ -2,7 +2,10 @@ import '../css/work-experience.css'
 
 const WorkExperience = () => {
   return (
-    <div>WorkExperience</div>
+    <div>
+      <h3>WorkExperience</h3>
+
+    </div>
   )
 }
 

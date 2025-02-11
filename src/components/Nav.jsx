@@ -12,6 +12,7 @@ const Nav = () => {
           <li className="nav-item">work</li>
           <li className="nav-item">education</li>
           <li className="nav-item">contact</li>
+          <li className="button">connect with me</li>
           <li className="button">hire me</li>
         </ul>
       </div>

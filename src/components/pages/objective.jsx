@@ -1,4 +1,5 @@
 const Objective = () => {
+
   return (
     <div className="objective">
       <span className="resume-item">My Objective</span>
